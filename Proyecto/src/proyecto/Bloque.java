@@ -35,7 +35,7 @@ public class Bloque
         
         for(int i = 0; i < sizeBloque; i++)
         {
-            this.texto[i] = '-';
+            this.texto[i] = '*';
         }
     }
     
@@ -48,7 +48,7 @@ public class Bloque
         {
             if(i < bytes)
             {
-                this.texto[i] = '-';
+                this.texto[i] = '*';
             }
             else
             {
@@ -76,7 +76,7 @@ public class Bloque
             }
             else 
             {
-                this.texto[i] = '-';
+                this.texto[i] = '*';
             }
         }
     }

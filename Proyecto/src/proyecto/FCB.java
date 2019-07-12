@@ -20,6 +20,20 @@ public class FCB
     private ArrayList<Bloque> bloques;
     private ArrayList<Integer> pos;
     
+    public FCB(int sizeBloques)
+    {
+        this.sizeBloques = sizeBloques;
+        this.bloques = new ArrayList<>();
+        this.pos = new ArrayList<>();
+        
+        this.texto = new char[sizeBloques];
+        
+        for(int i = 0; i < sizeBloques; i++)
+        {
+            texto[i] = ' ';
+        }
+    }
+    
     public FCB(int sizeBloques, int sizeArchivo)
     {
         this.sizeBloques = sizeBloques;

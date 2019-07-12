@@ -145,4 +145,9 @@ public class Disco
         }
             
     }
+    
+    public int getNumSectores()
+    {
+        return this.numBloques;
+    }
 }
